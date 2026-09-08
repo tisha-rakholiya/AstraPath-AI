@@ -145,7 +145,7 @@ if uploaded_file:
         io.BytesIO(uploaded_file.read())
     )
 
-    resume_text = ""
+    resume_text = "mixtral-8x7b-32768"
 
     for page in pdf_reader.pages:
         page_text = page.extract_text()
