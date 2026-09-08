@@ -99,7 +99,7 @@ Resume:
 """
 
     data = {
-        "model": "llama-3.3-70b-versatile",
+        "model": "llama3-70b-8192",
         "messages": [
             {
                 "role": "user",
@@ -145,7 +145,7 @@ if uploaded_file:
         io.BytesIO(uploaded_file.read())
     )
 
-    resume_text = "mixtral-8x7b-32768"
+    resume_text = ""
 
     for page in pdf_reader.pages:
         page_text = page.extract_text()
