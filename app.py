@@ -99,7 +99,7 @@ Resume:
 """
 
     data = {
-        "model": "llama-3.3-70b-specdec",
+        "model": "gpt-oss-120b",
         "messages": [
             {
                 "role": "user",
